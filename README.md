@@ -6,7 +6,7 @@
   cd nokia_take_home_challenge_server
   ```
   ## Then:
-    * Execute the script at `sql/nokia_take_home_challenge.sql`
+    * Execute the script at `sql_script/nokia_take_home_challenge.sql`
     * config mysql at `databases/connect.py`
 
   ## Then:
