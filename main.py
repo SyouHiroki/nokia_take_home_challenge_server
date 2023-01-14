@@ -37,5 +37,4 @@ def onSendDataToServer(payload):  # 前台发送过来的新的数据
 
 
 if __name__ == '__main__':
-    print('run')
     sio.run(app, host='localhost', port=5000)

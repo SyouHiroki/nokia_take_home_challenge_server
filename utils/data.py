@@ -6,5 +6,5 @@ def selectByID(cursor, id=1):
     return cursor.fetchall()
 
 
-def updateByID(cursor, data, id=1):
-    cursor.execute(sql.updateByIDSql(data, id))
+def updateByID(cursor, data):
+    cursor.execute(sql.updateByIDSql(data))
