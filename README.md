@@ -5,7 +5,11 @@
   git clone https://github.com/SyouHiroki/nokia_take_home_challenge_server.git
   cd nokia_take_home_challenge_server
   ```
-  Run the sql script, then:
+  ## Then:
+    * Execute the script at `sql/nokia_take_home_challenge.sql`
+    * config mysql at `databases/connect.py`
+
+  ## Then:
 
   ```
   pip install flask
